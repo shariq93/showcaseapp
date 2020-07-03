@@ -776,6 +776,9 @@ img {
     width:auto;
     height: 72px;
 }
+.my-logo{
+    display: none;
+}
 
 .navbar .navbar-nav .nav-link {
     padding-right: 1.25rem;
@@ -2244,6 +2247,7 @@ img {
         right: 30%;
         text-align: center;
         margin:0 auto !important;
+        display: none;
     }
     .navbar-brand img{
         width:auto;
@@ -2253,5 +2257,16 @@ img {
     }
     .text-white{
         text-align: center !important;
+    }
+    .my-logo{
+        width: 35%;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: -17%;
+        display: block;
+    }
+    .my-logo img{
+        width: auto;
+        width: 100%;
     }
 }
