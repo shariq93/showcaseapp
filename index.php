@@ -165,9 +165,10 @@ $url = "omanapp://omanapp/$t/$id";
         // session() 
         //  getPost()
         // includeHTML()
+        getPost()
         setTimeout(function() {
-            getPost()
-        }, 1000)
+            window.location = 'http://www.aqoman.com/getapp';
+        }, 2000)
 
         // getParameterByName()
 
@@ -178,7 +179,7 @@ $url = "omanapp://omanapp/$t/$id";
     getPost = async () => {
         url = "omanapp://omanapp/prop/533";
         window.location = url;
-
+     
         // alert('going')
     }
 </script>
