@@ -762,7 +762,7 @@ img {
 .navbar {
     position: absolute;
     top: 0;
-    left: 0;
+    /* left: 0; */
     right: 0;
     padding-top: 0;
     padding-bottom: 0;
@@ -770,6 +770,11 @@ img {
     -webkit-transition: .3s;
     transition: .3s;
     background: transparent;
+   
+}
+.navbar-brand img{
+    width:auto;
+    height: 72px;
 }
 
 .navbar .navbar-nav .nav-link {
@@ -2227,5 +2232,26 @@ img {
     .preview .welcome-area {
         height: 500px !important;
         padding-top: 0;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 480px) {
+    .navbar {
+        left: 35%;
+        right: 30%;
+        text-align: center;
+        margin:0 auto !important;
+    }
+    .navbar-brand img{
+        width:auto;
+        height: 72px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .text-white{
+        text-align: center !important;
     }
 }
