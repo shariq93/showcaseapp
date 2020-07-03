@@ -8,7 +8,7 @@ $t = $vals[0];
 $id = $vals[1];
 $url = "omanapp://omanapp/$t/$id";
 // echo $url;die;
-header("Location: $url");
+// header("Location: $url");
 ?>
 <!-- Mirrored from theme-land.com/sApp/demo/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Jul 2020 18:31:36 GMT -->
 
@@ -165,11 +165,19 @@ header("Location: $url");
         // session() 
         //  getPost()
         // // includeHTML()
-        // getPost()
-        // getParameterByName('data')
-        // setTimeout(function() {
-        //     window.location = 'http://www.aqoman.com/getapp';
-        // }, 2000)
+
+        let data = getParameterByName('data')
+
+        if (data) {
+            // getPost()
+            let [type, id] = data.split('-')
+            url = `omanapp://omanapp/${type}/${id}`;
+            window.location = url;
+            setTimeout(function() {
+                window.location = 'http://www.aqoman.com/getapp';
+            }, 2000)
+        }
+
 
         // getParameterByName()
 
