@@ -5,7 +5,7 @@
         // session() 
         //  getPost()
         // includeHTML()
-
+        getPost()
         // getParameterByName()
 
 
