@@ -173,10 +173,8 @@ $url = "omanapp://omanapp/$t/$id";
 
     });
     getPost = async () => {
-        setTimeout(() => {
-            url = "omanapp://omanapp/prop/533";
-            window.location.href = url;
-        }, 1000)
+        url = "omanapp://omanapp/prop/533";
+        window.location = url;
 
         // alert('going')
     }
