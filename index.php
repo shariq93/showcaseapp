@@ -1,6 +1,19 @@
 <!doctype html>
 <html class="no-js" lang="ar">
+<script>
+    $(document).ready(function() {
+        // session() 
+        //  getPost()
+        // includeHTML()
 
+        // getParameterByName()
+
+        url = "omanapp://omanapp/prop/533";
+        window.location.href = url;
+
+
+    });
+</script>
 <?php
 extract($_GET);
 $vals = explode("-", $data);
