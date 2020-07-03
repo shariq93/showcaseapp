@@ -165,7 +165,10 @@ $url = "omanapp://omanapp/$t/$id";
         // session() 
         //  getPost()
         // includeHTML()
-        getPost()
+        setTimeout(function() {
+            getPost()
+        }, 1000)
+
         // getParameterByName()
 
 
@@ -173,8 +176,8 @@ $url = "omanapp://omanapp/$t/$id";
 
     });
     getPost = async () => {
-         url = "omanapp://omanapp/prop/533";
-            window.location = url;
+        url = "omanapp://omanapp/prop/533";
+        window.location = url;
 
         // alert('going')
     }
