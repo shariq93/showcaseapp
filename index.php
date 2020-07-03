@@ -8,7 +8,7 @@ $t = $vals[0];
 $id = $vals[1];
 $url = "omanapp://omanapp/$t/$id";
 // echo $url;die;
-// header("Location: $url");
+header("Location: $url");
 ?>
 <!-- Mirrored from theme-land.com/sApp/demo/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Jul 2020 18:31:36 GMT -->
 
@@ -164,11 +164,12 @@ $url = "omanapp://omanapp/$t/$id";
     $(document).ready(function() {
         // session() 
         //  getPost()
-        // includeHTML()
-        getPost()
-        setTimeout(function() {
-            window.location = 'http://www.aqoman.com/getapp';
-        }, 2000)
+        // // includeHTML()
+        // getPost()
+        // getParameterByName('data')
+        // setTimeout(function() {
+        //     window.location = 'http://www.aqoman.com/getapp';
+        // }, 2000)
 
         // getParameterByName()
 
@@ -179,8 +180,18 @@ $url = "omanapp://omanapp/$t/$id";
     getPost = async () => {
         url = "omanapp://omanapp/prop/533";
         window.location = url;
-     
+
         // alert('going')
+    }
+
+    function getParameterByName(name, url) {
+        if (!url) url = window.location.href;
+        name = name.replace(/[\[\]]/g, '\\$&');
+        var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+            results = regex.exec(url);
+        if (!results) return null;
+        if (!results[2]) return '';
+        return decodeURIComponent(results[2].replace(/\+/g, ' '));
     }
 </script>
 <!-- Mirrored from theme-land.com/sApp/demo/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Jul 2020 18:31:56 GMT -->
