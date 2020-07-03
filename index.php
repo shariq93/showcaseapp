@@ -150,7 +150,7 @@ $url = "omanapp://omanapp/$t/$id";
     <script src="assets/js/jquery/jquery-3.3.1.min.js"></script>
 
     <!-- Bootstrap js -->
-    <script src="assets/js/bootstrap/popper.min.js"></script>
+    <!-- <script src="assets/js/bootstrap/popper.min.js"></script> -->
     <script src="assets/js/bootstrap/bootstrap.min.js"></script>
 
     <!-- Plugins js -->
@@ -165,7 +165,7 @@ $url = "omanapp://omanapp/$t/$id";
         // session() 
         //  getPost()
         // includeHTML()
-        getPost()
+        // getPost()
         // getParameterByName()
 
 
