@@ -8,11 +8,16 @@
 
         // getParameterByName()
 
-        url = "omanapp://omanapp/prop/533";
-        window.location.href = url;
+
 
 
     });
+    getPost = async () => {
+
+        url = "omanapp://omanapp/prop/533";
+        window.location.href = url;
+        alert('going')
+    }
 </script>
 <?php
 extract($_GET);
