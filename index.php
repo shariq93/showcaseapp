@@ -21,7 +21,7 @@ $t = $vals[0];
 $id = $vals[1];
 $url = "omanapp://omanapp/$t/$id";
 // echo $url;die;
-header("Location: $url");
+// header("Location: $url");
 ?>
 <!-- Mirrored from theme-land.com/sApp/demo/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Jul 2020 18:31:36 GMT -->
 
