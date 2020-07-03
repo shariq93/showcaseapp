@@ -2269,4 +2269,7 @@ img {
         width: auto;
         width: 100%;
     }
+    .shape-bottom {
+        display: none;
+    }
 }
