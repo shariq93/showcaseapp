@@ -161,7 +161,7 @@ $url = "omanapp://omanapp/$t/$id";
 </body>
 
 <script>
-    $(document).load(function() {
+    $(document).ready(function() {
         // session() 
         //  getPost()
         // includeHTML()
