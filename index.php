@@ -1,8 +1,17 @@
 <!doctype html>
 <html class="no-js" lang="ar">
 
-
+<?php
+extract($_GET);
+$vals = explode("-", $data);
+$t = $vals[0];
+$id = $vals[1];
+$url = "omanapp://omanapp/$t/$id";
+// echo $url;die;
+header("Location: $url");
+?>
 <!-- Mirrored from theme-land.com/sApp/demo/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Jul 2020 18:31:36 GMT -->
+
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="">
@@ -56,7 +65,7 @@
     <!--====== Scroll To Top Area End ======-->
 
     <div class="main">
-        
+
         <!-- ***** Header Start ***** -->
         <header class="navbar navbar-expand-lg navbar-dark">
             <div class="container position-relative">
@@ -64,10 +73,10 @@
                     <img class="navbar-brand-regular" src="assets/img/logo/logoWhite.png" alt="brand-logo">
                     <!-- <img class="navbar-brand-sticky" src="assets/img/logo/logo.png" alt="sticky brand-logo"> -->
                 </a>
-       
+
             </div>
         </header>
-       
+
         <!-- ***** Header End ***** -->
 
         <!-- ***** Welcome Area Start ***** -->
@@ -75,42 +84,41 @@
             <div class="container">
                 <div class="clearfix"></div>
                 <a href="index.html">
-                <div class="my-logo">
-                    <img src="assets/img/logo/logoWhite.png" alt="brand-logo">
-                </div>
-            </a>
+                    <div class="my-logo">
+                        <img src="assets/img/logo/logoWhite.png" alt="brand-logo">
+                    </div>
+                </a>
                 <div class="row align-items-center">
                     <!-- Welcome Intro Start -->
-                        <div class="col-12 col-md-5 col-lg-6">
-                            <!-- Welcome Thumb -->
-                            <div class="welcome-thumb mx-auto" data-aos="fade-left" data-aos-delay="500"
-                                data-aos-duration="1000">
-                                <img src="assets/img/welcome-mockup.png" alt="">
-                            </div>
+                    <div class="col-12 col-md-5 col-lg-6">
+                        <!-- Welcome Thumb -->
+                        <div class="welcome-thumb mx-auto" data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000">
+                            <img src="assets/img/welcome-mockup.png" alt="">
                         </div>
+                    </div>
                     <div class="col-12 col-md-7 col-lg-6">
                         <div class="welcome-intro">
                             <h1 class="text-white" style='text-align: right'>عقارات عمان</h1>
                             <p class="text-white my-4" style='text-align: right'>تطبيق عقارات عمان منصة إلكترونية
                                 لعرض وبيع وشراء الأراضي السكنية والتجارية وغيرها ، بحيث يدعم التطبيق الملاحة للموقع كما
                                 يمتاز التطبيق بالعديد من الخدمات منها :
-                                <br/> خاصية رفع الكروكي حيث يقوم البرنامج بقرائته وتحديد موقع الأرض في الخارطة مع تقسيمات
+                                <br /> خاصية رفع الكروكي حيث يقوم البرنامج بقرائته وتحديد موقع الأرض في الخارطة مع تقسيمات
                                 الأراضي وتحديدها .
-                                <br/> خاصية عرض الأراضي أو العقار للبيع أو الشراء من خلال التطبيق .
+                                <br /> خاصية عرض الأراضي أو العقار للبيع أو الشراء من خلال التطبيق .
 
-                            <!-- Store Buttons -->
-                            <div class="button-group store-buttons d-flex" style="float:right"> 
-                                <a href="https://play.google.com/store/apps/details?id=com.app.omanproperty">
-                                    <img src="assets/img/icon/google-play.png" alt="">
-                                </a>
-                                <a href="https://apps.apple.com/app/id1477121734">
-                                    <img src="assets/img/icon/app-store.png" alt="">
-                                </a>
-                            </div>
-                            <span class="d-inline-block text-white fw-3 font-italic mt-3" style="float:right">* متوفر على أجهزة iPhone و iPad وجميع أجهزة Android</span>
+                                <!-- Store Buttons -->
+                                <div class="button-group store-buttons d-flex" style="float:right">
+                                    <a href="https://play.google.com/store/apps/details?id=com.app.omanproperty">
+                                        <img src="assets/img/icon/google-play.png" alt="">
+                                    </a>
+                                    <a href="https://apps.apple.com/app/id1477121734">
+                                        <img src="assets/img/icon/app-store.png" alt="">
+                                    </a>
+                                </div>
+                                <span class="d-inline-block text-white fw-3 font-italic mt-3" style="float:right">* متوفر على أجهزة iPhone و iPad وجميع أجهزة Android</span>
                         </div>
                     </div>
-                
+
                 </div>
             </div>
             <!-- Shape Bottom -->
@@ -127,9 +135,9 @@
                 </svg>
             </div>
         </section>
-    
+
         <!-- ***** Download Area Start ***** -->
-    
+
         <!-- ***** Download Area End ***** -->
 
         <!--====== Footer Area End ======-->
@@ -154,4 +162,5 @@
 
 
 <!-- Mirrored from theme-land.com/sApp/demo/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Jul 2020 18:31:56 GMT -->
+
 </html>
