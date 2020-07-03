@@ -1,24 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="ar">
-<script>
-    $(document).ready(function() {
-        // session() 
-        //  getPost()
-        // includeHTML()
-        getPost()
-        // getParameterByName()
 
-
-
-
-    });
-    getPost = async () => {
-
-        url = "omanapp://omanapp/prop/533";
-        window.location.href = url;
-        alert('going')
-    }
-</script>
 <?php
 extract($_GET);
 $vals = explode("-", $data);
@@ -178,7 +160,25 @@ $url = "omanapp://omanapp/$t/$id";
     <script src="assets/js/active.js"></script>
 </body>
 
+<script>
+    $(document).ready(function() {
+        // session() 
+        //  getPost()
+        // includeHTML()
+        getPost()
+        // getParameterByName()
 
+
+
+
+    });
+    getPost = async () => {
+
+        url = "omanapp://omanapp/prop/533";
+        window.location.href = url;
+        alert('going')
+    }
+</script>
 <!-- Mirrored from theme-land.com/sApp/demo/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Jul 2020 18:31:56 GMT -->
 
 </html>
