@@ -176,7 +176,7 @@ $url = "omanapp://omanapp/$t/$id";
 
         url = "omanapp://omanapp/prop/533";
         window.location.href = url;
-        alert('going')
+        // alert('going')
     }
 </script>
 <!-- Mirrored from theme-land.com/sApp/demo/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Jul 2020 18:31:56 GMT -->
