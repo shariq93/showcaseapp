@@ -779,6 +779,17 @@ img {
 .my-logo{
     display: none;
 }
+.store-buttons {
+    margin-bottom: 30px;
+}
+.store-buttons img {
+   width: 100%;
+}
+
+
+.store-buttons.store-black img {
+   width: 100%;
+}
 
 .navbar .navbar-nav .nav-link {
     padding-right: 1.25rem;
@@ -973,8 +984,9 @@ img {
 }
 
 .welcome-thumb {
-    max-width: 300px;
+    max-width: 100% !important;
     padding-top: 70px;
+    margin-top: -90px;
 }
 
 @media (min-width: 992px) {
@@ -2269,7 +2281,16 @@ img {
         width: auto;
         width: 100%;
     }
+    .welcome-thumb {
+        max-width: 100% !important;
+        padding-top: 70px;
+        margin-top: 0px !important;
+    }
     .shape-bottom {
         display: none;
+    }
+    p.text-white.my-4 {
+        margin-top: 11px !important;
+        text-align: right !important;
     }
 }

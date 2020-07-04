@@ -3,12 +3,15 @@
 
 <?php
 extract($_GET);
-$vals = explode("-", $data);
-$t = $vals[0];
-$id = $vals[1];
-$url = "omanapp://omanapp/$t/$id";
-// echo $url;die;
-// header("Location: $url");
+if(isset($data)){
+    $vals = explode("-", $data);
+    $t = $vals[0];
+    $id = $vals[1];
+    $url = "omanapp://omanapp/$t/$id";
+    // echo $url;die;
+    // header("Location: $url");
+}
+
 ?>
 <!-- Mirrored from theme-land.com/sApp/demo/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Jul 2020 18:31:36 GMT -->
 
@@ -126,7 +129,7 @@ $url = "omanapp://omanapp/$t/$id";
                 </div>
             </div>
             <!-- Shape Bottom -->
-            <div class="shape-bottom">
+            <!-- <div class="shape-bottom">
                 <svg viewBox="0 0 1920 310" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="svg replaced-svg">
                     <title>عقارات عمان</title>
                     <desc>عقارات عمان</desc>
@@ -137,7 +140,7 @@ $url = "omanapp://omanapp/$t/$id";
                         </g>
                     </g>
                 </svg>
-            </div>
+            </div> -->
         </section>
 
         <!-- ***** Download Area Start ***** -->
