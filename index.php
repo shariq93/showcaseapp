@@ -93,29 +93,42 @@ $url = "omanapp://omanapp/$t/$id";
                     <div class="col-12 col-md-5 col-lg-6">
                         <!-- Welcome Thumb -->
                         <div class="welcome-thumb mx-auto" data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000">
-                            <img src="assets/img/welcome-mockup.png" alt="">
+                            <img src="assets/img/app.png" alt="">
                         </div>
                     </div>
                     <div class="col-12 col-md-7 col-lg-6">
                         <div class="welcome-intro">
-                            <h1 class="text-white" style='text-align: right'>عقارات عمان</h1>
-                            <p class="text-white my-4" style='text-align: right'>تطبيق عقارات عمان منصة إلكترونية
-                                لعرض وبيع وشراء الأراضي السكنية والتجارية وغيرها ، بحيث يدعم التطبيق الملاحة للموقع كما
-                                يمتاز التطبيق بالعديد من الخدمات منها :
-                                <br /> خاصية رفع الكروكي حيث يقوم البرنامج بقرائته وتحديد موقع الأرض في الخارطة مع تقسيمات
-                                الأراضي وتحديدها .
-                                <br /> خاصية عرض الأراضي أو العقار للبيع أو الشراء من خلال التطبيق .
+                            <p class="text-white my-4" style='text-align: right'>
+                                حمل تطبيق عقارات عمان لمشاهدة الموقع بجودة عالية
+                                <p>
+                                    <!-- Store Buttons -->
+                                    <div class="button-group store-buttons d-flex" style="float:right">
+                                        <a href="https://play.google.com/store/apps/details?id=com.app.omanproperty">
+                                            <img src="assets/img/icon/google-play.png" alt="">
+                                        </a>
+                                        <a href="https://apps.apple.com/app/id1477121734">
+                                            <img src="assets/img/icon/app-store.png" alt="">
+                                        </a>
+                                    </div>
+                                    <h1 class="text-white" style='text-align: right'>عقارات عمان</h1>
+                                    <p class="text-white my-4" style='text-align: right'>
+                                        تطبيق عقارات عمان منصة إلكترونية
+                                        لعرض وبيع وشراء الأراضي السكنية والتجارية وغيرها ، بحيث يدعم التطبيق الملاحة للموقع كما
+                                        يمتاز التطبيق بالعديد من الخدمات منها :
+                                        <br /> خاصية رفع الكروكي حيث يقوم البرنامج بقرائته وتحديد موقع الأرض في الخارطة مع تقسيمات
+                                        الأراضي وتحديدها .
+                                        <br /> خاصية عرض الأراضي أو العقار للبيع أو الشراء من خلال التطبيق .
 
-                                <!-- Store Buttons -->
-                                <div class="button-group store-buttons d-flex" style="float:right">
-                                    <a href="https://play.google.com/store/apps/details?id=com.app.omanproperty">
-                                        <img src="assets/img/icon/google-play.png" alt="">
-                                    </a>
-                                    <a href="https://apps.apple.com/app/id1477121734">
-                                        <img src="assets/img/icon/app-store.png" alt="">
-                                    </a>
-                                </div>
-                                <span class="d-inline-block text-white fw-3 font-italic mt-3" style="float:right">* متوفر على أجهزة iPhone و iPad وجميع أجهزة Android</span>
+                                        <!-- Store Buttons -->
+                                        <div class="button-group store-buttons d-flex" style="float:right">
+                                            <a href="https://play.google.com/store/apps/details?id=com.app.omanproperty">
+                                                <img src="assets/img/icon/google-play.png" alt="">
+                                            </a>
+                                            <a href="https://apps.apple.com/app/id1477121734">
+                                                <img src="assets/img/icon/app-store.png" alt="">
+                                            </a>
+                                        </div>
+                                        <span class="d-inline-block text-white fw-3 font-italic mt-3" style="float:right">* متوفر على أجهزة iPhone و iPad وجميع أجهزة Android</span>
                         </div>
                     </div>
 
