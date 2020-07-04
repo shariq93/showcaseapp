@@ -101,16 +101,20 @@ if(isset($data)){
                     </div>
                     <div class="col-12 col-md-7 col-lg-6">
                         <div class="welcome-intro">
-                            <p class="text-white my-4" style='text-align: right'>
+                            <div class="my-box">
+                            <p class="text-white " style='text-align: right'>
+                            <i class="fa fa-info-circle" aria-hidden="true"></i>
                                 حمل تطبيق عقارات عمان لمشاهدة الموقع بجودة عالية
                                 <p>
+                                </div>
+                                <div class="clearfix"></div>
                                     <!-- Store Buttons -->
-                                    <div class="button-group store-buttons d-flex" style="float:right">
+                                    <div class="button-group store-buttons d-flex" style="">
                                         <a href="https://play.google.com/store/apps/details?id=com.app.omanproperty">
-                                            <img src="assets/img/icon/google-play.png" alt="">
+                                            <img src="assets/img/icon/app-store.jpeg" alt="">
                                         </a>
                                         <a href="https://apps.apple.com/app/id1477121734">
-                                            <img src="assets/img/icon/app-store.png" alt="">
+                                            <img src="assets/img/icon/android.jpeg" alt="">
                                         </a>
                                     </div>
                                     <h1 class="text-white" style='text-align: right'>عقارات عمان</h1>

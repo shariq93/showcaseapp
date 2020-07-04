@@ -2293,4 +2293,26 @@ img {
         margin-top: 11px !important;
         text-align: right !important;
     }
+    .store-buttons {
+        float: none !important;
+        margin-left: 30px;
+    }
+}
+
+.my-box{
+    /* background: yellow !important; */
+    border: 1px solid  white;
+    background: #f1c40f !important;
+    /* width: 500px; */
+    float: right;
+    padding: 2px 5px;
+    border-radius: 5px;
+    margin-bottom: -20px !important;
+}
+.my-box p .text-white{
+    padding-top: 0px !important;
+    float: right;
+}
+.store-buttons {
+    float: right;
 }
