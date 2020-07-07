@@ -2309,6 +2309,9 @@ img {
         align-items: center;
         display: flex;
     }
+    h1 .text-white{
+        text-align: center !important;
+    }
     
 }
 

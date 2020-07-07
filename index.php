@@ -117,6 +117,7 @@ if(isset($data)){
                                             <img src="assets/img/android2.png" alt="">
                                         </a>
                                     </div>
+                                    <div class="clearfix"></div>
                                     <h1 class="text-white" style='text-align: right'>عقارات عمان</h1>
                                     <p class="text-white my-4" style='text-align: right'>
                                         تطبيق عقارات عمان اول منصة إلكترونية متخصصة بطريقة تعتبر الاولى من نوعها لعرض جميع العقارات (بيع وشراء /تأجير واستئجار ) بجميع الاستخدامات السكنية والتجارية وغيرها ، بحيث يدعم التطبيق الملاحة للموقع كما يمتاز التطبيق بالعديد من الخدمات منها :
