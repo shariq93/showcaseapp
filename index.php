@@ -127,7 +127,7 @@ if(isset($data)){
                                         خاصية الخارطة وتعتبر الاقوى في السوق العماني عن طريق فتح الخارطة مباشرة وظهور جميع العقارات المعروضه وإظهار التفاصيل مع امكانية فلترة البحث
                                         <!-- Store Buttons -->
 
-                                        <span class="d-inline-block text-white fw-3 font-italic mt-3" style="float:right">* متوفر على أجهزة iPhone و iPad وجميع أجهزة Android</span>
+                                        <!-- <span class="d-inline-block text-white fw-3 font-italic mt-3" style="float:right">* متوفر على أجهزة iPhone و iPad وجميع أجهزة Android</span> -->
                         </div>
                     </div>
 
