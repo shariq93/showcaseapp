@@ -40,7 +40,7 @@ if(isset($data)){
 
 <body>
     <!--====== Preloader Area Start ======-->
-    <div class="preloader-main">
+    <!-- <div class="preloader-main">
         <div class="preloader-wapper">
             <svg class="preloader" xmlns="http://www.w3.org/2000/svg" version="1.1" width="600" height="200">
                 <defs>
@@ -59,7 +59,7 @@ if(isset($data)){
                 <div class="loader-section section-right"></div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!--====== Scroll To Top Area Start ======-->
     <div id="scrollUp" title="Scroll To Top">
@@ -109,12 +109,12 @@ if(isset($data)){
                                 </div>
                                 <div class="clearfix"></div>
                                     <!-- Store Buttons -->
-                                    <div class="button-group store-buttons d-flex" style="">
+                                    <div class="button-group store-buttons d-flex">
                                         <a href="https://play.google.com/store/apps/details?id=com.app.omanproperty">
-                                            <img src="assets/img/icon/app-store.jpeg" alt="">
+                                            <img src="assets/img/apple2.png" alt="">
                                         </a>
                                         <a href="https://apps.apple.com/app/id1477121734">
-                                            <img src="assets/img/icon/android.jpeg" alt="">
+                                            <img src="assets/img/android2.png" alt="">
                                         </a>
                                     </div>
                                     <h1 class="text-white" style='text-align: right'>عقارات عمان</h1>
