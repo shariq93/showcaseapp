@@ -2302,6 +2302,14 @@ img {
         text-align: center !important;
         /* width: 100%; */
     }
+    .store-buttons {
+        float: none !important;
+        text-align: center !important;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    
 }
 
 .my-box{
