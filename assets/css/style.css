@@ -2297,6 +2297,11 @@ img {
         float: none !important;
         margin-left: 30px;
     }
+    .my-box{
+        float: none !important;
+        text-align: center !important;
+        /* width: 100%; */
+    }
 }
 
 .my-box{
