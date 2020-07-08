@@ -3,7 +3,7 @@
 
 <?php
 extract($_GET);
-if(isset($data)){
+if (isset($data)) {
     $vals = explode("-", $data);
     $t = $vals[0];
     $id = $vals[1];
@@ -102,31 +102,31 @@ if(isset($data)){
                     <div class="col-12 col-md-7 col-lg-6">
                         <div class="welcome-intro">
                             <div class="my-box">
-                            <p class="text-white " style='text-align: right'>
-                            <i class="fa fa-info-circle" aria-hidden="true"></i>
-                                حمل تطبيق عقارات عمان لمشاهدة الموقع بجودة عالية
-                                <p>
-                                </div>
-                                <div class="clearfix"></div>
-                                    <!-- Store Buttons -->
-                                    <div class="button-group store-buttons d-flex" style="">
-                                        <a href="https://play.google.com/store/apps/details?id=com.app.omanproperty">
-                                            <img src="assets/img/icon/app-store.jpeg" alt="">
-                                        </a>
-                                        <a href="https://apps.apple.com/app/id1477121734">
-                                            <img src="assets/img/icon/android.jpeg" alt="">
-                                        </a>
-                                    </div>
-                                    <h1 class="text-white" style='text-align: right'>عقارات عمان</h1>
-                                    <p class="text-white my-4" style='text-align: right'>
-                                        تطبيق عقارات عمان اول منصة إلكترونية متخصصة بطريقة تعتبر الاولى من نوعها لعرض جميع العقارات (بيع وشراء /تأجير واستئجار ) بجميع الاستخدامات السكنية والتجارية وغيرها ، بحيث يدعم التطبيق الملاحة للموقع كما يمتاز التطبيق بالعديد من الخدمات منها :
-                                        <Br />
-                                        خاصية رفع الكروكي او مشاركته من الواتساب بحيث يقوم البرنامج بقرائته وتحديد موقع الأرض في الخارطة مع شكل القطعة وتقسيمات الأراضي والمخططات
-                                        <Br />
-                                        خاصية الخارطة وتعتبر الاقوى في السوق العماني عن طريق فتح الخارطة مباشرة وظهور جميع العقارات المعروضه وإظهار التفاصيل مع امكانية فلترة البحث
-                                        <!-- Store Buttons -->
+                                <p class="text-white " style='text-align: right'>
+                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                    حمل تطبيق عقارات عمان لمشاهدة الموقع بجودة عالية
+                                    <p>
+                            </div>
+                            <div class="clearfix"></div>
+                            <!-- Store Buttons -->
+                            <div class="button-group store-buttons d-flex" style="">
+                                <a href="https://apps.apple.com/app/id1477121734">
+                                    <img src="assets/img/icon/app-store.jpeg" alt="">
+                                </a>
+                                <a href="https://play.google.com/store/apps/details?id=com.app.omanproperty">
+                                    <img src="assets/img/icon/android.jpeg" alt="">
+                                </a>
+                            </div>
+                            <h1 class="text-white" style='text-align: right'>عقارات عمان</h1>
+                            <p class="text-white my-4" style='text-align: right'>
+                                تطبيق عقارات عمان اول منصة إلكترونية متخصصة بطريقة تعتبر الاولى من نوعها لعرض جميع العقارات (بيع وشراء /تأجير واستئجار ) بجميع الاستخدامات السكنية والتجارية وغيرها ، بحيث يدعم التطبيق الملاحة للموقع كما يمتاز التطبيق بالعديد من الخدمات منها :
+                                <Br />
+                                خاصية رفع الكروكي او مشاركته من الواتساب بحيث يقوم البرنامج بقرائته وتحديد موقع الأرض في الخارطة مع شكل القطعة وتقسيمات الأراضي والمخططات
+                                <Br />
+                                خاصية الخارطة وتعتبر الاقوى في السوق العماني عن طريق فتح الخارطة مباشرة وظهور جميع العقارات المعروضه وإظهار التفاصيل مع امكانية فلترة البحث
+                                <!-- Store Buttons -->
 
-                                        <span class="d-inline-block text-white fw-3 font-italic mt-3" style="float:right">* متوفر على أجهزة iPhone و iPad وجميع أجهزة Android</span>
+                                <span class="d-inline-block text-white fw-3 font-italic mt-3" style="float:right">* متوفر على أجهزة iPhone و iPad وجميع أجهزة Android</span>
                         </div>
                     </div>
 
